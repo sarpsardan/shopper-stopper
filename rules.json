@@ -1,0 +1,3493 @@
+[
+  {
+    "id": 1,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.1stdibs.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.6pm.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.abercrombie.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+  "id": 4,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.aboutyou.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 5,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.academy.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 6,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.adidas.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 7,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.alibaba.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 8,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.aliexpress.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 9,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 10,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.anthropologie.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 11,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.asos.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 12,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.bestbuy.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 13,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.boohoo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 14,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.boots.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 15,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.calvinklein.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 16,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.costco.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 17,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.crateandbarrel.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 18,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.debenhams.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 19,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.dickssportinggoods.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 20,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ebay.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 21,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.etsy.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 22,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.farfetch.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 23,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.footlocker.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 24,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gap.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 25,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gucci.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 26,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.hm.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 27,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.homedepot.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 28,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ikea.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 29,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.jcpenney.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 30,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.kohls.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 31,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lazada.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 32,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.louisvuitton.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 33,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.macys.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 34,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.mediamarkt.de/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 35,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.michaelkors.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 36,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.myntra.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 37,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.neimanmarcus.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 38,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.nike.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 39,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.nordstrom.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 40,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.oldnavy.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 41,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.overstock.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 42,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.patagonia.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 43,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.potterybarn.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 44,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.rakuten.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 45,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.rei.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 46,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.saks.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 47,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.sephora.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 48,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.shopee.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 49,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.taobao.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 50,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.target.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 51,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.tiffany.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 52,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.tmall.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 53,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ulta.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 54,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.underarmour.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 55,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.uniqlo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 56,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.urbanoutfitters.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 57,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.victoriassecret.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 58,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.walmart.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 59,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.wayfair.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 60,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.wish.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 61,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.zalando.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 62,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.zalora.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 63,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.zara.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 64,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.dhgate.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 65,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.trendyol.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 66,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.hepsiburada.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 67,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gittigidiyor.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 68,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.n11.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 69,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.morhipo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 70,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.beymen.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 71,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.vakko.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 72,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.modanisa.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 73,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.defacto.com.tr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 74,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lcwaikiki.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 75,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.boyner.com.tr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 76,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.teknosa.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 77,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.mediamarkt.com.tr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 78,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.vatanbilgisayar.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 79,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.aliexpress.ru/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 80,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ozon.ru/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 81,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.wildberries.ru/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 82,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lamoda.ru/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 83,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.bol.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 84,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.wehkamp.nl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 85,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.coolblue.nl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 86,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.elgiganten.se/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 87,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.elkjop.no/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 88,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gigantti.fi/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 89,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.allegro.pl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 90,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.rakuten.co.jp/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 91,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.zozo.jp/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 92,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.coupang.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 93,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gmarket.co.kr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 94,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lazada.sg/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 95,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.tokopedia.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 96,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.bukalapak.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 97,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.flipkart.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 98,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.snapdeal.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 99,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.jd.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 100,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.pinduoduo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 101,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.vip.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 102,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.kaola.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 103,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.suning.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 104,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.mogujie.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 105,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.co.uk/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 106,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.de/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 107,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.fr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 108,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.it/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 109,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.es/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 110,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.nl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 111,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.pl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 112,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.se/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 113,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.com.au/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 114,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.com.br/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 115,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.ca/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 116,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.com.mx/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 117,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.ae/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 118,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.amazon.sa/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 119,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ebay.co.uk/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 120,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ebay.de/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+  {
+    "id": 121,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.ebay.fr/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 122,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.ebay.it/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 123,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.ebay.es/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 124,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.ebay.com.au/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 125,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.ebay.ca/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },{
+    "id": 126,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.co.id/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 127,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.co.th/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 128,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.com.my/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 129,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.ph/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 130,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.sg/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 131,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.tw/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 132,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.shopee.vn/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 133,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.lazada.co.id/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 134,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.lazada.co.th/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 135,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.lazada.com.my/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 136,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.lazada.com.ph/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 137,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.lazada.sg/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 138,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.lazada.vn/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 139,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.zalora.com.hk/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 140,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.zalora.com.my/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 141,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.zalora.com.ph/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 142,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.watsons.com.hk/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 143,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.watsons.com.tr/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 144,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.rossmann.com.tr/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 145,
+    "priority": 100,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.gratis.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+{
+  "id": 146,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.evyap.com.tr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+  {
+  "id": 147,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.worten.pt/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 148,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.fnac.pt/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 149,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.galaxus.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 150,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.digitec.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 151,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.microspot.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 152,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.manor.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 153,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.brack.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 154,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.interdiscount.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 155,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.coop.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 156,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.migros.ch/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 157,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.alza.cz/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 158,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.mall.cz/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 159,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.czc.cz/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 160,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.datart.cz/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 161,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.allegro.pl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 162,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.mediaexpert.pl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 163,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.morele.net/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 164,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.x-kom.pl/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 165,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.empik.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 166,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.net-a-porter.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 167,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.mytheresa.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 168,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.luisaviaroma.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 169,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.farfetch.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 170,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.matchesfashion.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 171,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ssense.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 172,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gucci.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 173,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.louisvuitton.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 174,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.chanel.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 175,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.hermes.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 176,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.burberry.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 177,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.prada.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 178,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.cartier.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 179,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.tiffany.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 180,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.rolex.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 181,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.balenciaga.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 182,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.valentino.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 183,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.fendi.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 184,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.versace.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 185,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.dior.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 186,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.cettire.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 187,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.moncler.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 188,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ysl.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 189,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.saintlaurent.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 190,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.bottegaveneta.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 191,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.rakuten.co.jp/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 192,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.coupang.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 193,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gmarket.co.kr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 194,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.11st.co.kr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 195,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.qoo10.jp/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 196,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.jd.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 197,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.suning.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 198,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.pinduoduo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 199,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.yesstyle.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 200,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.qoo10.sg/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 201,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.tokopedia.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 202,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.blibli.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 203,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.tiki.vn/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 204,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.sendo.vn/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 205,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.myntra.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 206,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.snapdeal.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 207,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.sephora.fr/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 208,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.cultbeauty.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 209,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lookfantastic.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 210,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.beautybay.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 211,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.stylekorean.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 212,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.jolse.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 213,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.stockx.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 214,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.goat.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 215,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.flightclub.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 216,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.stadium.se/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 217,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.wiggle.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 218,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.chainreactioncycles.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 219,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.backcountry.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 220,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.rei.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 221,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.sweetwater.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 222,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.thomann.de/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 223,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.guitarcenter.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 224,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.newegg.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 225,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.microcenter.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 226,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.bhphotovideo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 227,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.adorama.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 228,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.wayfair.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 229,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.roomstogo.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 230,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.ashleyfurniture.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 231,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.restorationhardware.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 232,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.article.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 233,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.casper.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 234,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.purple.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 235,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.brooklinen.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},{
+  "id": 236,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.chewy.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 237,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.petco.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 238,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.petsmart.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 239,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.michaels.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 240,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.joann.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 241,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.hobbylobby.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 242,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.anthropologie.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 243,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.freepeople.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 244,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.nastygal.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 245,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.modcloth.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 246,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lulus.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 247,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.fabletics.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 248,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.athleta.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 249,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.lululemon.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+},
+{
+  "id": 250,
+  "priority": 100,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "extensionPath": "/block.html"
+    }
+  },
+  "condition": {
+    "urlFilter": "*://*.gymshark.com/*",
+    "resourceTypes": ["main_frame"]
+  }
+}
+]

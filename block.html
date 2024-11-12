@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Take a Mindful Break</title>
+  <script src="block.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #E3F4F4 0%, #D2E9E9 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #2C3333;
+      transition: all 0.5s ease;
+    }
+    
+    .block-page {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 600px;
+      animation: fadeIn 1.5s ease-in;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .block-page h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #395B64;
+      font-weight: normal;
+    }
+    
+    .block-page p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+      color: #2C3333;
+    }
+    
+    .quote {
+      font-style: italic;
+      color: #395B64;
+      margin: 30px 0;
+      font-size: 20px;
+    }
+    
+    .breathing-circle {
+      width: 100px;
+      height: 100px;
+      background: #A5C9CA;
+      border-radius: 50%;
+      margin: 30px auto;
+      animation: breathe 4s infinite ease-in-out;
+    }
+    
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    
+    .audio-controls {
+      margin-top: 20px;
+      opacity: 0.7;
+    }
+    
+    .audio-label {
+      font-size: 14px;
+      color: #395B64;
+      margin-bottom: 10px;
+    }
+
+    audio {
+      opacity: 0.8;
+      border-radius: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="block-page">
+    <div class="breathing-circle"></div>
+    <h1>Take a Mindful Moment</h1>
+    <p>Instead of shopping, let's pause and breathe. Follow the circle's rhythm for a calming breath exercise.</p>
+    <div class="quote">"The real wealth is not in buying things, but in enjoying the simple moments."</div>
+    <p>Your future self will thank you for this moment of mindfulness.</p>
+    <div class="audio-controls">
+      <div class="audio-label">Calming Music</div>
+      <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+</body>
+</html>
