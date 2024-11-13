@@ -58,22 +58,38 @@ async function updateRules() {
 
       // Add custom sites as dynamic rules if any exist
       if (customSites.length > 0) {
-        const customRules = customSites.map((site, index) => ({
-          id: index + 1000, // Start from 1000 to avoid conflicts with default rules
-          priority: 1,
-          action: {
-            type: "redirect",
-            redirect: {
-              extensionPath: "/block.html"
+        const customRules = customSites.map((site, index) => {
+          const urlFilter = site.includes('www.') ? 
+            `*://${site}/*` : 
+            `*://*.${site}/*`;
+        
+          return [
+            {
+              id: index + 1000, // Start from 1000 to avoid conflicts with default rules
+              priority: 1,
+              action: {
+                type: "redirect",
+                redirect: { extensionPath: "/block.html" }
+              },
+              condition: {
+                urlFilter: `*://${site}/*`,
+                resourceTypes: ["main_frame"]
+              }
+            },
+            {
+              id: index + 2000, // Additional rule for non-www variant
+              priority: 1,
+              action: {
+                type: "redirect",
+                redirect: { extensionPath: "/block.html" }
+              },
+              condition: {
+                urlFilter: `*://${site.replace('www.', '')}/*`,
+                resourceTypes: ["main_frame"]
+              }
             }
-          },
-          condition: {
-            urlFilter: site.includes('www.') ? 
-              `*://${site}/*` : 
-              `*://*.${site}/*`,
-            resourceTypes: ["main_frame"]
-          }
-        }));
+          ];
+        }).flat();
 
         // Add the custom rules
         await chrome.declarativeNetRequest.updateDynamicRules({
