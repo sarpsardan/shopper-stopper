@@ -1,4 +1,5 @@
-let currentRules = {};
+// Import custom sites handlers
+import { getAllSites, initializeSites } from './customBlockedSites.js';
 
 function isWithinWorkHours() {
   return new Promise((resolve) => {
@@ -30,65 +31,79 @@ function isWithinWorkHours() {
   });
 }
 
-// New function to handle custom sites
-async function updateCustomSiteRules() {
-  const response = await chrome.storage.sync.get('customSites');
-  const customSites = response.customSites || [];
-  
-  if (customSites.length > 0) {
-    const customRules = customSites.map((site, index) => ({
-      id: 10000 + index, // Using high IDs to avoid conflicts with existing rules
-      priority: 1,
-      action: {
-        type: "redirect",
-        redirect: {
-          extensionPath: "/block.html"
-        }
-      },
-      condition: {
-        urlFilter: `*://*.${site}/*`,
-        resourceTypes: ["main_frame"]
-      }
-    }));
-
-    // Add these rules to your existing rules
-    try {
-      await chrome.declarativeNetRequest.updateDynamicRules({
-        removeRuleIds: customRules.map(rule => rule.id), // Remove old rules
-        addRules: customRules // Add new rules
-      });
-    } catch (error) {
-      console.error('Error updating rules:', error);
-    }
-  }
-}
-
 async function updateRules() {
-  const shouldBlock = await isWithinWorkHours();
-  
-  if (shouldBlock) {
-    // Enable blocking rules
-    await chrome.declarativeNetRequest.updateEnabledRulesets({
-      enableRulesetIds: ["ruleset_1"]
-    });
-    // Update custom site rules
-    await updateCustomSiteRules();
-  } else {
-    // Disable blocking rules
-    await chrome.declarativeNetRequest.updateEnabledRulesets({
-      disableRulesetIds: ["ruleset_1"]
-    });
-    // Remove custom site rules
-    const response = await chrome.storage.sync.get('customSites');
-    const customSites = response.customSites || [];
-    if (customSites.length > 0) {
-      const ruleIds = customSites.map((_, index) => 10000 + index);
+  try {
+    const shouldBlock = await isWithinWorkHours();
+    
+    // Initialize and get custom sites
+    await initializeSites();
+    const customSites = getAllSites();
+
+    // Get existing dynamic rules
+    const existingRules = await chrome.declarativeNetRequest.getDynamicRules();
+    const existingRuleIds = existingRules.map(rule => rule.id);
+
+    // Remove existing dynamic rules
+    if (existingRuleIds.length > 0) {
       await chrome.declarativeNetRequest.updateDynamicRules({
-        removeRuleIds: ruleIds
+        removeRuleIds: existingRuleIds
       });
     }
+
+    if (shouldBlock) {
+      // Always enable default rules from rules.json during work hours
+      await chrome.declarativeNetRequest.updateEnabledRulesets({
+        enableRulesetIds: ["ruleset_1"]
+      });
+
+      // Add custom sites as dynamic rules if any exist
+      if (customSites.length > 0) {
+        const customRules = customSites.map((site, index) => ({
+          id: index + 1000, // Start from 1000 to avoid conflicts with default rules
+          priority: 1,
+          action: {
+            type: "redirect",
+            redirect: {
+              extensionPath: "/block.html"
+            }
+          },
+          condition: {
+            urlFilter: site.includes('www.') ? 
+              `*://${site}/*` : 
+              `*://*.${site}/*`,
+            resourceTypes: ["main_frame"]
+          }
+        }));
+
+        // Add the custom rules
+        await chrome.declarativeNetRequest.updateDynamicRules({
+          removeRuleIds: existingRuleIds,
+          addRules: customRules
+        });
+      }
+    } else {
+      // Outside work hours - disable everything
+      await chrome.declarativeNetRequest.updateEnabledRulesets({
+        disableRulesetIds: ["ruleset_1"]
+      });
+      
+      // Remove any custom rules
+      if (existingRuleIds.length > 0) {
+        await chrome.declarativeNetRequest.updateDynamicRules({
+          removeRuleIds: existingRuleIds
+        });
+      }
+    }
+  } catch (error) {
+    console.error('Error updating rules:', error);
   }
 }
+
+// Initialize when extension loads
+chrome.runtime.onInstalled.addListener(async () => {
+  await initializeSites();
+  await updateRules();
+});
 
 // Check time every minute
 chrome.alarms.create('checkTime', { periodInMinutes: 1 });
@@ -102,13 +117,14 @@ chrome.alarms.onAlarm.addListener((alarm) => {
 
 // Listen for messages from popup
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.type === 'scheduleUpdated') {
+  if (message.type === 'scheduleUpdated' || message.type === 'customSitesUpdated') {
     updateRules();
-  }
-  if (message.type === 'updateCustomSites') {
-    updateCustomSiteRules();
   }
 });
 
-// Initial check when extension loads
-updateRules();
+// Update rules when a tab is updated
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  if (changeInfo.status === 'loading') {
+    updateRules();
+  }
+});

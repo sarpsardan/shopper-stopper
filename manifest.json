@@ -25,6 +25,7 @@
     "activeTab"
   ],
   "host_permissions": [
+    "<all_urls>",
     "*://*.1stdibs.com/*",
     "*://*.6pm.com/*",
     "*://*.abercrombie.com/*",
@@ -617,20 +618,21 @@
   "*://*.zumiez.com/*",
   "*://*.11st.co.kr/*"
   ],
-  "web_accessible_resources": [{
-    "resources": ["block.html", "block.js"],
-    "matches": ["<all_urls>"]
-  }],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "declarative_net_request": {
-    "rule_resources": [
-      {
-        "id": "ruleset_1",
-        "enabled": true,
-        "path": "rules.json"
-      }
-    ]
-  }
+"web_accessible_resources": [{
+  "resources": ["block.html", "block.js"],
+  "matches": ["<all_urls>"]
+}],
+"background": {
+  "service_worker": "background.js",
+  "type": "module"
+},
+"declarative_net_request": {
+  "rule_resources": [
+    {
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }
+  ]
+}
 }

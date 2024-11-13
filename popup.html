@@ -1,140 +1,311 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Work Timer Settings</title>
+  <title>Focus Time</title>
   <style>
-    body {
-      width: 300px;
-      padding: 15px;
-      font-family: Arial, sans-serif;
+    :root {
+      --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      --glass-bg: rgba(255, 255, 255, 0.1);
+      --border-radius: 16px;
     }
+
+    body {
+      width: 340px;  /* Reduced from 380px */
+      padding: 16px;  /* Reduced from 24px */
+      font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #1e1e2e 0%, #2d2b55 100%);
+      color: #fff;
+      margin: 0;
+    }
+
     .container {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 20px;
     }
-    .day-setting {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .time-inputs {
-      display: flex;
-      gap: 10px;
-    }
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
+
     .header {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
+
+    .header h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+      background: var(--primary-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header p {
+      color: #94a3b8;
+      font-size: 14px;
+      margin: 8px 0 0;
+    }
+
     .add-site-section {
-      padding: 20px;
-      margin-bottom: 20px;
-      background-color: #f5f5f5;
-      border-radius: 8px;
-      text-align: center;
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px);
+      border-radius: var(--border-radius);
+      padding: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
+
+    #addCurrentSite {
+      background: var(--primary-gradient);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 12px;
+      font-weight: 500;
+      font-size: 15px;
+      transition: all 0.3s ease;
+      width: 100%;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    }
+
+    #addCurrentSite:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    }
+
+    .day-setting {
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px);
+      border-radius: var(--border-radius);
+      padding: 12px;  /* Reduced from 16px */
+      display: grid;
+      grid-template-columns: 110px 1fr; /* Slightly reduce day column */
+      gap: 12px;     /* Reduced from 16px */
+      align-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .day-label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    input[type="checkbox"] {
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 6px;
+      border: 2px solid #6366f1;
+      position: relative;
+      cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked {
+      background: var(--primary-gradient);
+    }
+
+    input[type="checkbox"]:checked::after {
+      content: "\2713"; /* Unicode checkmark symbol */
+      position: absolute;
+      color: white;
+      font-size: 14px;
+      left: 4px;
+      top: 0px;
+    }
+
+    .time-inputs {
+      display: flex;
+      gap: 8px;      /* Reduced from 12px */
+      align-items: center;
+      width: 100%; /* Ensure container takes full width */
+      justify-content: flex-end; /* Align times to the right */
+      max-width: 180px; /* Limit maximum width */
+      margin-left: auto; /* Push to right side */
+    }
+
+    input[type="time"] {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      color: #fff;
+      padding: 4px 2px; /* Reduce horizontal padding */
+      font-size: 14px;
+      width: 80px; /* Reduce width */
+      min-height: 20px; /* Control height */
+      -webkit-appearance: none; /* Hide default styling */
+      position: relative; /* Contain the clock icon */
+      box-sizing: border-box; /* Include padding in width */
+    }
+
+    /* Hide default clock icon and add custom styling */
+    input[type="time"]::-webkit-calendar-picker-indicator {
+      background: none;
+      display: none;
+    }
+
+    .time-inputs span {
+      font-size: 12px; /* Make arrow smaller */
+      margin: 0 2px; /* Reduce margin around arrow */
+    }
+
+    #customSitesList {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0 0;
+    }
+
+    #customSitesList li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.05);
+      margin-bottom: 8px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .remove-site {
+      background: none;
+      border: none;
+      color: #94a3b8;
+      cursor: pointer;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .remove-site:hover {
+      color: #ef4444;
+    }
+
+    #save {
+      background: var(--primary-gradient);
+      color: white;
+      padding: 16px;
+      border: none;
+      border-radius: 12px;
+      font-weight: 500;
+      font-size: 16px;
+      margin-top: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    }
+
+    #save:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    }
+
     .site-added-message {
-      color: #4CAF50;
-      margin-top: 10px;
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      background: rgba(52, 211, 153, 0.1);
+      color: #34d399;
+      font-size: 14px;
+      text-align: center;
       display: none;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="add-site-section">
-      <button id="addCurrentSite">Block This Site</button>
-      <div id="siteAddedMessage" class="site-added-message">Site added to block list!</div>
+    <div class="header">
+      <h2>Focus Time</h2>
+      <p>Maximize your productivity</p>
     </div>
 
-    <div class="header">
-      <h2>Set Work Hours</h2>
-      <p>Sites will be blocked during these hours</p>
+    <div class="add-site-section">
+      <button id="addCurrentSite">Block Current Site</button>
+      <div id="siteAddedMessage" class="site-added-message">Site blocked successfully!</div>
+      <ul id="customSitesList"></ul>
     </div>
-    
+
     <div class="day-setting">
-      <input type="checkbox" id="monday" name="monday">
-      <label for="monday">Monday</label>
+      <div class="day-label">
+        <input type="checkbox" id="monday">
+        <label for="monday">Monday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="monday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="monday-end" value="17:00">
       </div>
     </div>
 
     <div class="day-setting">
-      <input type="checkbox" id="tuesday" name="tuesday">
-      <label for="tuesday">Tuesday</label>
+      <div class="day-label">
+        <input type="checkbox" id="tuesday">
+        <label for="tuesday">Tuesday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="tuesday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="tuesday-end" value="17:00">
       </div>
     </div>
 
     <div class="day-setting">
-      <input type="checkbox" id="wednesday" name="wednesday">
-      <label for="wednesday">Wednesday</label>
+      <div class="day-label">
+        <input type="checkbox" id="wednesday">
+        <label for="wednesday">Wednesday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="wednesday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="wednesday-end" value="17:00">
       </div>
     </div>
 
     <div class="day-setting">
-      <input type="checkbox" id="thursday" name="thursday">
-      <label for="thursday">Thursday</label>
+      <div class="day-label">
+        <input type="checkbox" id="thursday">
+        <label for="thursday">Thursday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="thursday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="thursday-end" value="17:00">
       </div>
     </div>
 
     <div class="day-setting">
-      <input type="checkbox" id="friday" name="friday">
-      <label for="friday">Friday</label>
+      <div class="day-label">
+        <input type="checkbox" id="friday">
+        <label for="friday">Friday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="friday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="friday-end" value="17:00">
       </div>
     </div>
 
     <div class="day-setting">
-      <input type="checkbox" id="saturday" name="saturday">
-      <label for="saturday">Saturday</label>
+      <div class="day-label">
+        <input type="checkbox" id="saturday">
+        <label for="saturday">Saturday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="saturday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="saturday-end" value="17:00">
       </div>
     </div>
 
     <div class="day-setting">
-      <input type="checkbox" id="sunday" name="sunday">
-      <label for="sunday">Sunday</label>
+      <div class="day-label">
+        <input type="checkbox" id="sunday">
+        <label for="sunday">Sunday</label>
+      </div>
       <div class="time-inputs">
         <input type="time" id="sunday-start" value="09:00">
-        <span>to</span>
+        <span>&rarr;</span>
         <input type="time" id="sunday-end" value="17:00">
       </div>
     </div>
 
-    <button id="save">Save Settings</button>
+    <button id="save">Save Configuration</button>
   </div>
-  <script src="popup.js"></script>
+  <script src="popup.js" type="module"></script>
 </body>
 </html>
