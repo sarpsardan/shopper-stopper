@@ -16,9 +16,7 @@
       "128": "icons/icon128.png"
     }
   },
-  "permissions": [
-    "tabs", 
-    "webNavigation", 
+  "permissions": [  
     "declarativeNetRequest",
     "storage",
     "alarms",
